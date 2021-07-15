@@ -1,0 +1,308 @@
+* {
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+/* navbar */
+.navbar {
+  background-color: rgb(194, 108, 108);
+  padding-left: 200px;
+}
+.navbar .navbar-nav {
+  padding-left: 100px;
+  padding: 15px 0px 15px 100px;
+}
+.navbar .navbar-nav .nav-item a {
+  color: white;
+  padding-left: 12px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.navbar a.navbar-brand {
+  color: white;
+  font-size: 35px;
+  font-weight: 600;
+}
+.card {
+  padding-top: 97px;
+}
+.card img {
+  height: 80vh;
+}
+/* section donate */
+.donate {
+  padding: 100px 0px;
+  /* background-color: thistle; */
+}
+.donate .donate-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.donate .donate-content .right {
+  width: 50%;
+  display: flex;
+}
+.donate .donate-content .right .image img {
+  height: 500px;
+  width: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.donate .donate-content .right .love img {
+  height: 200px;
+}
+.donate .donate-content .left {
+  width: 30%;
+  padding-left: 50px;
+  padding-top: 100px;
+}
+.donate .donate-content .left .text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.donate .donate-content .left p {
+  text-align: justify;
+}
+.donate .donate-content .left a {
+  display: inline-block;
+  background-color: rgb(223, 121, 121);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 20px;
+  color: white;
+  margin-top: 20px;
+  border: 2px solid rgb(223, 121, 121);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+.donate .donate-content .left a:hover {
+  background: none;
+  color: rgb(223, 121, 121);
+}
+.donate .donate-content .donate a:hover {
+  color: rgb(223, 121, 121);
+  background: none;
+}
+/* footer sectionn */
+footer {
+  background-color: rgb(194, 108, 108);
+  width: 100%;
+  padding-bottom: 0px;
+}
+footer .social-menu {
+  display: flex;
+  padding-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+footer .social-menu a {
+  padding: 8px 10px;
+  margin: 5px;
+  font-size: 35px;
+  border-radius: 50%;
+  background-color: rgb(223, 121, 121);
+  color: white;
+}
+footer .last {
+  font-size: 20px;
+  padding: 18px;
+  text-align: center;
+}
+footer .social-menu a:hover {
+  background: white;
+  color: rgb(223, 121, 121);
+}
+
+.about {
+  padding-top: 100px;
+}
+
+section .title {
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 20px;
+  color: rgb(223, 121, 121);
+}
+
+.about p {
+  text-align: justify;
+  padding: 0px 100px;
+  font-size: 20px;
+}
+
+.team {
+  padding: 100px;
+}
+.team .row {
+  padding: 30px;
+}
+
+/* contact us */
+.contact form {
+  padding: 100px;
+}
+form .title {
+  position: relative;
+  font-size: 40px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 15px;
+  padding: 20px;
+  color: rgb(223, 121, 121);
+}
+.contact a {
+  display: inline-block;
+  background-color: rgb(223, 121, 121);
+  font-size: 20px;
+  font-weight: 500;
+  padding: 8px 20px;
+  color: white;
+  margin-top: 20px;
+  border: 2px solid rgb(223, 121, 121);
+  border-radius: 6px;
+  transition: all 0.3s ease;
+  text-decoration: none;
+ 
+}
+.contact a:hover{
+  background: none;
+  color:rgb(223, 121, 121);
+}
+@media (max-width: 990px) {
+  .navbar {
+    padding-left: 0px;
+  }
+  .navbar .navbar-nav {
+    padding-left: 0px;
+  }
+  footer .social-menu a {
+    padding: 6px 8px;
+    margin: 2px;
+    font-size: 20px;
+  }
+  .about p {
+    padding: 0px 30px;
+  }
+
+  .team {
+    padding: 0px;
+  }
+  .team .row {
+    padding: 30px;
+  }
+
+  .contact form {
+    padding: 100px 10px;
+  }
+}
+@media (max-width: 780px) {
+  section {
+    padding: 0px 0px;
+  }
+
+  .donate .donate-content .column {
+    width: 100%;
+  }
+  .donate .donate-content .right {
+    display: flex;
+    justify-content: center;
+    margin: 0px auto 60px;
+  }
+  .donate .donate-content .left {
+    flex: 100%;
+    padding: auto 0px;
+    margin: auto;
+  }
+  .donate .donate-content .left {
+    padding-left: 20px;
+  }
+
+  .donate .donate-content .left .text {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  .donate .donate-content .left a {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 6px 10px;
+
+    margin-top: 10px;
+
+    transition: all 0.3s ease;
+  }
+}
+
+footer .social-menu a {
+  padding: 6px 5px;
+  margin: 2px;
+  font-size: 18px;
+}
+
+@media (max-width: 1100px) {
+  .donate .donate-content .right .image img {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+  .donate .donate-content .column {
+    width: 40%;
+  }
+}
+
+@media (max-width: 320px) {
+  .donate .donate-content .right .image img {
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+
+  .donate .donate-content .right .love img {
+    height: 150px;
+  }
+
+  footer .column {
+    width: 100%;
+  }
+
+  .donate .donate-content .left {
+    padding-left: 8px;
+  }
+}
+
+
+/* donate  */
+.donate2 {
+  background-color: #b0aaa6;
+  height: 100vh;
+  text-align: center;
+}
+.donate2-img {
+  margin-top: 12rem;
+}
+.donate2-img img {
+  display: flex;
+  justify-content: center;
+}
+.donate2 h4 {
+  margin-left: 12rem;
+  margin-right: 12rem;
+  color: #000000;
+  /* margin-top: 12rem; */
+
+  line-height: 2rem;
+}
+.donate2 h4 span {
+  font-weight: 600;
+}
